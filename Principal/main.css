@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to top,#BAD1CD,#3A86FF,#1D3461);
+    height: 100vh;
+}
+
+main {
+    background-image: linear-gradient(to top,#F5EBE0,#E3D5CA,#D6CCC4);
+    border-radius:10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:1px;
+    padding-bottom:15px;
+    margin: auto;
+    width:800px;
+    box-shadow:2px 2px 5px #605F5E;
+}
+main h2{
+    text-align: center;
+    margin-top:20px;
+}
+
+main p{
+    text-align: justify;
+}
+
+abbr {
+    text-decoration:underline dotted;
+}
+
+.img {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+img {
+    border-radius:200px;
+    width:250px;
+    margin-bottom:15px;
+}
+
+picture img{
+    width:18px;
+    height:18px;
+    border-radius:0px;
+    margin-bottom:-1px;
+}
+.instagram {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-right:20px;
+    padding-bottom:1px;
+}
+
+a {
+    text-decoration:none;
+    transition:transform .3s;
+}
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color:black;
+}
+
+.instagram img:hover {
+    transform:scale(1.2);
+}
+
+svg:hover {
+    transform:scale(1.2);
+}
+
+picture:hover {
+    transform:scale(1.2);
+}
+
+picture {
+    transition:transform .3s;
+}
+
+picture img {
+    transition:transform .8s;
+}
+picture svg {
+    transition:transform .3s;
+}
+picture path {
+    transition:transform .3s;
+}
