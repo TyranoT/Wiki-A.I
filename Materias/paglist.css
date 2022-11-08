@@ -231,7 +231,7 @@ main {
     transform: scale(1.1);
 }
 
-a {
+a:link {
     text-decoration: none;
 }
 
