@@ -18,7 +18,8 @@ main {
     padding-bottom:15px;
     padding: auto;
     margin: auto;
-    width:92%;
+    max-width: 90%;
+    width: 800px;
     
     box-shadow:2px 2px 5px #605F5E;
 }
@@ -45,7 +46,7 @@ abbr {
 img {
     border-radius:200px;
     margin: auto;
-    max-width: 100%;
+    max-width: 38%;
     width: 250px;
     margin-top: 15px;
     margin-bottom:15px;
