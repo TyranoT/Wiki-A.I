@@ -6,7 +6,8 @@
 
 body {
     background-image: linear-gradient(to top,#BAD1CD,#3A86FF,#1D3461);
-    height: 130vh;
+    max-height: 50%;
+    height: 100vh;
 }
 
 main {
@@ -17,6 +18,7 @@ main {
     padding-top:1px;
     padding-bottom:15px;
     margin: auto;
+    max-width: 90%;
     width:800px;
     box-shadow:2px 2px 5px #605F5E;
 }
@@ -28,6 +30,7 @@ main {
     text-indent: 20px;
     font-size: normal;
     transition: transform .2s;
+    max-width: 50%;
     width: 180px;
 }
 
@@ -42,6 +45,7 @@ main {
     text-indent: 20px;
     font-size: normal;
     transition: transform .2s;
+    max-width: 50%;
     width: 180px;
 }
 
@@ -56,6 +60,7 @@ main {
     text-indent: 20px;
     font-size: normal;
     transition: transform .2s;
+    max-width: 50%;
     width: 180px;
 }
 
@@ -70,6 +75,7 @@ main {
     text-indent: 20px;
     font-size: normal;
     transition: transform .2s;
+    max-width: 50%;
     width: 180px;
 }
 
@@ -84,6 +90,7 @@ main {
     text-indent: 20px;
     font-size: normal;
     transition: transform .2s;
+    max-width: 50%;
     width: 180px;
 }
 
@@ -98,6 +105,7 @@ main {
     text-indent: 20px;
     font-size: normal;
     transition: transform .2s;
+    max-width: 50%;
     width: 180px;
 }
 
@@ -112,6 +120,7 @@ main {
     text-indent: 20px;
     font-size: normal;
     transition: transform .2s;
+    max-width: 50%;
     width: 180px;
 }
 
@@ -126,6 +135,7 @@ main {
     text-indent: 20px;
     font-size: normal;
     transition: transform .2s;
+    max-width: 50%;
     width: 180px;
 }
 
@@ -140,6 +150,7 @@ main {
     text-indent: 20px;
     font-size: normal;
     transition: transform .2s;
+    max-width: 50%;
     width: 180px;
 }
 
@@ -154,6 +165,7 @@ main {
     text-indent: 20px;
     font-size: normal;
     transition: transform .2s;
+    max-width: 50%;
     width: 180px;
 }
 
@@ -168,6 +180,7 @@ main {
     text-indent: 20px;
     font-size: normal;
     transition: transform .2s;
+    max-width: 50%;
     width: 180px;
 }
 
@@ -182,6 +195,7 @@ main {
     text-indent: 20px;
     font-size: normal;
     transition: transform .2s;
+    max-width: 50%;
     width: 180px;
 }
 
@@ -196,6 +210,7 @@ main {
     text-indent: 20px;
     font-size: normal;
     transition: transform .2s;
+    max-width: 50%;
     width: 180px;
 }
 
@@ -210,6 +225,7 @@ main {
     text-indent: 20px;
     font-size: normal;
     transition: transform .2s;
+    max-width: 50%;
     width: 180px;
 }
 
@@ -224,6 +240,7 @@ main {
     text-indent: 20px;
     font-size: normal;
     transition: transform .2s;
+    max-width: 50%;
     width: 180px;
 }
 
