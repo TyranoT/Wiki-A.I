@@ -32,6 +32,7 @@ main h2{
 main p{
     text-align: justify;
     margin: auto;
+    text-indent: 25px;
 }
 
 abbr {
@@ -59,6 +60,7 @@ picture img{
     border-radius:0px;
     margin-bottom:-1px;
 }
+
 .instagram {
     display: flex;
     flex-direction:row;
