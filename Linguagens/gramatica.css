@@ -17,14 +17,6 @@ body {
     height: 170vh;
 }
 
-:root {
-    --cor1: #BAD1CD;
-    --cor2: #3A86FF;
-    --cor3: #1D3461;
-    --cor4: #FB5607;
-    --cor5: #dd7b0a;
-}
-
 nav {
     display: flex;
     justify-content: space-evenly;
