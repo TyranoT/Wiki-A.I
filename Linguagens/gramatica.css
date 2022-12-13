@@ -96,6 +96,11 @@ ul li {
     width: 200px;
     padding: 2px;
     border-radius: 5px;
+    transition: .3s;
+}
+
+ul li:hover {
+    transform: scale(1.1);
 }
 
 ul li a {
