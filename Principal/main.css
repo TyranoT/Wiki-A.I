@@ -4,10 +4,45 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --cor1: #BAD1CD;
+    --cor2: #3A86FF;
+    --cor3: #1D3461;
+    --cor4: #FB5607;
+}
+
 body {
     background-image: linear-gradient(to top,#BAD1CD,#3A86FF,#1D3461);
     max-height: 50%;
     height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: var(--cor4);
+
+    border-radius: 5px;
+
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+nav a{
+    padding: 3px;
+    width: 150px;
+    margin: 0px;
+
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: var(--cor2);
+    border-radius: 10px;
+    transition: .3s;
 }
 
 main {
