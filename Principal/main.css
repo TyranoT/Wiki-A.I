@@ -41,7 +41,7 @@ nav a{
 
 nav a:hover {
     background-color: var(--cor2);
-    border-radius: 10px;
+    border-radius: 5px;
     transition: .3s;
 }
 
