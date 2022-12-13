@@ -9,6 +9,42 @@ body {
     max-height: 100%;
 }
 
+:root {
+    --cor1: #BAD1CD;
+    --cor2: #3A86FF;
+    --cor3: #1D3461;
+    --cor4: #FB5607;
+    --cor5: #dd7b0a;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: var(--cor4);
+
+    border-radius: 5px;
+
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+nav a{
+    padding: 3px;
+    width: 150px;
+    margin: 0px;
+
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: var(--cor2);
+    border-radius: 5px;
+    transition: .3s;
+}
+
 main {
     background-image: linear-gradient(to top,#F5EBE0,#E3D5CA,#D6CCC4);
     border-radius:10px;
@@ -53,7 +89,7 @@ main {
 }
 
 .filosofia {
-    background-color:#3A86FF;
+    background-color: var(--cor2);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -68,7 +104,7 @@ main {
 }
 
 .historiarte {
-    background-color:#3A86FF;
+    background-color: var(--cor2);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -83,7 +119,7 @@ main {
 }
 
 .redação {
-    background-color:#3A86FF;
+    background-color: var(--cor2);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -98,7 +134,7 @@ main {
 }
 
 .historia {
-    background-color:#3A86FF;
+    background-color: var(--cor2);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -113,7 +149,7 @@ main {
 }
 
 .geografia {
-    background-color:#3A86FF;
+    background-color: var(--cor2);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -128,7 +164,7 @@ main {
 }
 
 .matematica {
-    background-color:#dd7b0a;
+    background-color: var(--cor5);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -143,7 +179,7 @@ main {
 }
 
 .matematica2 {
-    background-color:#dd7b0a;
+    background-color: var(--cor5);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -173,7 +209,7 @@ main {
 }
 
 .fisica2 {
-    background-color:#dd7b0a;
+    background-color: var(--cor5);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -188,7 +224,7 @@ main {
 }
 
 .biologia {
-    background-color:#dd7b0a;
+    background-color: var(--cor5);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -203,7 +239,7 @@ main {
 }
 
 .biologia2 {
-    background-color:#dd7b0a;
+    background-color: var(--cor5);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -218,7 +254,7 @@ main {
 }
 
 .quimica {
-    background-color:#dd7b0a;
+    background-color: var(--cor5);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -233,7 +269,7 @@ main {
 }
 
 .quimica2 {
-    background-color:#dd7b0a;
+    background-color: var(--cor5);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
