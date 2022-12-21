@@ -17,6 +17,8 @@ body {
     --cor3: #1D3461;
     --cor4: #FB5607;
     --cor5: #dd7b0a;
+    --cor6: #58863D;
+    --cor7: #8AC06C;
 }
 
 nav {
@@ -61,7 +63,7 @@ main {
 }
 
 .gramatica {
-    background-color:#3A86FF;
+    background-color:var(--cor2);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -76,7 +78,7 @@ main {
 }
 
 .sociologia {
-    background-color:#3A86FF;
+    background-color: var(--cor2);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -196,7 +198,7 @@ main {
 }
 
 .fisica {
-    background-color:#dd7b0a;
+    background-color:var(--cor6);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -211,7 +213,7 @@ main {
 }
 
 .fisica2 {
-    background-color: var(--cor5);
+    background-color: var(--cor6);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -226,7 +228,7 @@ main {
 }
 
 .biologia {
-    background-color: var(--cor5);
+    background-color: var(--cor6);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -241,7 +243,7 @@ main {
 }
 
 .biologia2 {
-    background-color: var(--cor5);
+    background-color: var(--cor6);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -256,7 +258,7 @@ main {
 }
 
 .quimica {
-    background-color: var(--cor5);
+    background-color: var(--cor6);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
@@ -271,7 +273,7 @@ main {
 }
 
 .quimica2 {
-    background-color: var(--cor5);
+    background-color: var(--cor6);
     border-radius: 20px;
     text-align: justify;
     text-indent: 20px;
