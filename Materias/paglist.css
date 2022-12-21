@@ -6,7 +6,9 @@
 
 body {
     background-image: linear-gradient(to top,#BAD1CD,#3A86FF,#1D3461);
-    max-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 98vh;
 }
 
 :root {
@@ -290,4 +292,15 @@ a:link {
 
 a:visited {
     color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 15px;
+    margin-left: -8px;
+    margin-right:-8px;
+    background-color: var(--cor4);
+    padding: 3px;
 }

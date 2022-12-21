@@ -13,8 +13,9 @@
 
 body {
     background-image: linear-gradient(to top,#BAD1CD,#3A86FF,#1D3461);
-    max-height: 50%;
-    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 98vh;
 }
 
 nav {
@@ -137,6 +138,7 @@ picture img {
     transition:transform .8s;
 }
 picture svg {
+    width: 30px;
     transition:transform .3s;
 }
 picture path {

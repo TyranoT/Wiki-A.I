@@ -15,7 +15,10 @@
 
 body {
     background-image: linear-gradient(to top, var(--cor1), var(--cor2), var(--cor3));
-    height: 140vh;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 98vh;
 }
 
 nav {
